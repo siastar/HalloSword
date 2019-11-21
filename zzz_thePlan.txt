@@ -1,0 +1,90 @@
+This is a TODO list for EvilJS
+
+modules to write
+
+////////////////////////////////////////////////
+build player character
+		player	
+		player inventory		
+
+player object
+enemy object
+all game characters, player included can fit in the same object
+
+the object properties are
+
+- kind (player, enemy1, enemy2.... enemy x)
+- level (level of the player, it modifies the other values)
+- power (attack damage)
+- armor (defence bonus)
+- weapon (used weapon)
+- inventory (available items, for the moment it will be used only by player)
+- 
+the methods are
+- attack
+- defence
+- move
+- pick
+drop
+aftermath
+
+
+generate 
+		a random map		
+		enemies
+	  	boss
+		items
+		weapons
+		NPCs
+		
+place in the map 
+   	player	
+		enemies
+		items
+		weapons
+		NPCs
+
+start the game 
+		initiate turns system   	
+   	player enters room
+		initiative		
+		enemies react to player presence
+		NPCs react to player presence
+
+enemies behaviour (AI) 
+		enemies approach player
+		enemies attack player
+
+NPCs behaviour
+		NPC approach player
+		NPC interact with player
+		NPC drops item
+
+update player inventory
+		pick items
+		drop items
+		
+combat system (roll dices)
+		define a combat system
+		attack
+		defence
+		dodge
+						
+
+move
+methods
+
+NN
+NE
+EE
+SE		
+SS
+SW
+WW
+
+gamestatus
+position x,y
+stats
+
+
+
